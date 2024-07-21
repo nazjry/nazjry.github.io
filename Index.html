@@ -1,12 +1,70 @@
-<!DOCTYPE html>    
- <html>    
- <head>  
- <title>tessssssd</title>  
- </head>  
- <body>  
- <div style="text-align:center;margin-top:200px;">  
- <h1>Maaf situs sedang dalam tahap pembuatan.<br/>  
- Silahkan berkunjung lagi besok.</h1>  
- </div>  
- </body>    
- </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Company XYZ</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="landing-section">
+            <div class="landing-content">
+                <h2>Welcome to Company XYZ</h2>
+                <p>Your trusted source for great content.</p>
+                <a href="#" class="cta-button">Learn More</a>
+            </div>
+        </section>
+
+        <section class="blog-posts">
+            <article class="post">
+                <h3>Post Title 1</h3>
+                <div class="video-container">
+                    <video id="video1" class="video-js vjs-default-skin" controls>
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p>Content of the first blog post goes here...</p>
+                <div class="advertisement">
+                    <img src="advertisement.jpg" alt="Advertisement">
+                    <p>Advertisement text goes here...</p>
+                </div>
+            </article>
+
+            <article class="post">
+                <h3>Post Title 2</h3>
+                <div class="video-container">
+                    <video id="video2" class="video-js vjs-default-skin" controls>
+                        <source src="video2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p>Content of the second blog post goes here...</p>
+                <div class="advertisement">
+                    <img src="advertisement2.jpg" alt="Advertisement">
+                    <p>Advertisement text goes here...</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Company XYZ. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.10.2/video.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
